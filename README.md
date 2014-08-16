@@ -1,4 +1,4 @@
-squa-red-
-=========
+Bottle Scaffold
+===============
 
-(RED) Hackathon w/ Square College Code Camp
+A base Bottle project with Jinja2, Twitter Bootstrap, Less.js and jQuery.
