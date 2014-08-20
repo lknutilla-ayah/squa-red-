@@ -1,0 +1,54 @@
+body {
+	text-align: center;
+	background-color: #D25A74
+}
+
+.country {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 750px;
+	top: 500px;
+	cursor: pointer;
+}
+
+.overlay {
+	visibility: hidden;
+	opacity: 0;
+	background-image: url('../img/zambia-info.jpg');
+	background-size: 100%;
+	position: absolute;
+	width: 650px;
+	height: 750px;
+	z-index: 2;
+	left: 50%;
+	top: 50%;
+	text-align: left;
+	margin-top: -375px;
+	margin-left: -350px;
+	-webkit-transition: visibility 0s, opacity 1s linear;
+}
+
+.overlay.visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.chart {
+	position: absolute;
+	left: 20px;
+	top: 110px;
+	width: 400px;
+}
+
+
+.bar {
+	width: 0;
+	height: 20px;
+	line-height: 20px;
+	background-color: #BF1238;
+	margin-bottom: 10px;
+	-webkit-transition: width 1s ease-in-out;
+
+}
